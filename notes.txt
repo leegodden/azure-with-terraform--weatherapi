@@ -1,0 +1,8 @@
+01. create project to be used for Azure Pipeline example. ( can be any project type)
+02. run and test the project working locally
+03. create your Dockerfile along with code and build and run
+	 docker build -t leegodden/weatherapi . 
+	 docker run -p 8081:80 leegodden/weatherapi  
+	 
+04. push docker image to docker hub, 
+	 'docker push leegodden/weatherapi'
